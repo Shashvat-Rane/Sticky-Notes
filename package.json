@@ -1,0 +1,14 @@
+{
+  "name": "sticky-notes",
+  "version": "1.0.0",
+  "description": "Sticky Notes Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Shashvat Rane",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
