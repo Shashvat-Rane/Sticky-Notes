@@ -2,13 +2,19 @@
   "name": "sticky-notes",
   "version": "1.0.0",
   "description": "Sticky Notes Website",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Shashvat Rane",
   "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
   "dependencies": {
-    "parcel": "^2.12.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
